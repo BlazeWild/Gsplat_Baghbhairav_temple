@@ -88,7 +88,7 @@ const HomePage = () => {
             {isFullscreen && (
               <button
                 onClick={toggleFullscreen}
-                className="absolute bottom-5 right-5 p-3 bg-blue-500 text-white rounded-lg hover:bg-blue-700 sm:hidden z-20"
+                className="absolute top-5 right-5 p-3 bg-blue-500 text-white rounded-lg hover:bg-blue-700 sm:hidden z-20"
               >
                 Exit Fullscreen
               </button>

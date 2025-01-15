@@ -10,7 +10,7 @@ export const Experience = () => {
   return (
     <>
       {/* Environment Lighting */}
-      <Environment preset="city" />
+      <Environment preset="sunset" />
       <directionalLight
         intensity={0.5}
         castShadow
@@ -30,15 +30,13 @@ export const Experience = () => {
 
       {/* Physics Simulation */}
       <Physics>
-        {/* Load the map dynamically */}
         <Map
           model="/assets/building/scene.gltf" // Path to your city model
-          position={[0, -34, 0]}
-          scale={[100, 100, 100]}
+          position={[0, -20, 0]}
+          scale={[80, 100, 100]}
           rotation={[0, 0, 0]}
         />
-        {/* Character Controller */}
-        <CharacterController />
+        <CharacterController/>
       </Physics>
     </>
   );

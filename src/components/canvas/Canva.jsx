@@ -36,8 +36,14 @@ const Canvas3D = () => {
         }}
       >
         <color attach="background" args={["#ececec"]} />
+        <ambientLight intensity={0.4} />
+
         <Experience />
-        {/* <OrbitControls /> */}
+        {/* <OrbitControls 
+        // enableZoom={true}
+        // enablePan={true}
+        // enableRotate={true}
+        /> */}
       </Canvas>
     </KeyboardControls>
   );
